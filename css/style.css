@@ -22,13 +22,14 @@ p{
 	margin-bottom: 15px;
 }
 
-#content{}
+/*top navigation*/
 
 #navContainer{
-	top: 0px;
 	background: #FF0000;
 	position:fixed;
+	top: 0px;
 	width:100%;
+	z-index: 5000;
 }
 
 #topNav{
@@ -60,11 +61,13 @@ p{
 	color: #FF0000;
 }
 
+/*title*/
+
 #denmark{
+	background: url("../img/copenhagen.png") no-repeat center top, url("../img/lineWave.png") no-repeat center bottom;
 	color: #333333;
-	height: 540px;
+	height: 530px;
 	margin-top: 75px;
-	background: url("../img/copenhagen.png") no-repeat center 0px, url("../img/lineWave.png") no-repeat center 500px;
 }
 
 #denmark h1{
@@ -82,16 +85,49 @@ p{
 #title{
 	color: white;
 	margin-top: 20px;
-/*	position: relative;
-*/}
+}
+
+/*photo item definitions*/
+
+.photoItem{
+	background: #ffffff;
+	float:left;
+	margin:130px 0 20px 15px;
+	text-align: center;
+	width: 300px;
+}
+
+.photoItem footer{
+	padding: 10px;
+}
+
+/*copenhagen*/
 
 #copenhagen{
+	background: url("../img/headerGraphic.png") no-repeat left top, url("../img/lineWave.png") no-repeat center bottom;
 	color: #333333;
-	height: 450px;
-	background: url("../img/headerGraphic.png") no-repeat 0px 0px, url("../img/lineWave.png") no-repeat center 430px;
+	height: 530px;
 }
 
 #copenhagen h2{
+	color: red;
+	font-size: 1.65em;
+	font-weight: 700;
+	margin-left: 125px;
+	margin-top: 32px;
+	position: absolute;
+}
+
+/*food*/
+
+#food{
+	background: url("../img/headerGraphic.png") no-repeat left top, url("../img/lineWave.png") no-repeat center bottom;
+	color: #333333;
+	height: 530px;
+	margin-top: 20px;
+}
+
+#food h2{
 	color: red;
 	font-weight: 700;
 	font-size: 1.65em;
@@ -100,18 +136,64 @@ p{
 	position: absolute;
 }
 
-#copenhagenPhotoContainer .photoItem{
-	width: 200px;
-	margin:130px 0 40px 80px;
-	float:left;
-	text-align: center;
-	background: #ffffff;
+/*family*/
+
+#family{
+	background: url("../img/headerGraphic.png") no-repeat left top, url("../img/lineWave.png") no-repeat center bottom;
+	color: #333333;
+	height: 570px;
+	margin-top: 20px;
 }
 
-#copenhagenPhotoContainer .photoItem footer{
-	padding: 10px;
+#family h2{
+	color: red;
+	font-weight: 700;
+	font-size: 1.65em;
+	margin-left: 125px;
+	margin-top: 32px;
+	position: absolute;
 }
 
+/*farm*/
+
+#farm{
+	background: url("../img/headerGraphic.png") no-repeat left top, url("../img/lineWave.png") no-repeat center bottom;
+	color: #333333;
+	height: 1300px;
+	margin-top: 20px;
+}
+
+#farm h2{
+	color: red;
+	font-weight: 700;
+	font-size: 1.65em;
+	margin-left: 125px;
+	margin-top: 32px;
+	position: absolute;
+}
+
+#farm header{
+	margin-top: 120px;
+	position: absolute;
+}
+
+#farmPhotoContainer1{
+	margin-top: 150px;
+	position: absolute;
+
+}
+
+#farmPhotoContainer2{
+	margin-top: 330px;
+	position: absolute;
+
+}
+
+#farmPhotoContainer3{
+	margin-top: 660px;
+	position: absolute;
+
+}
 
 /*The Magnificent CLEARFIX*/
 .clearfix:after { 
