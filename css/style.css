@@ -3,9 +3,8 @@ body{
 }
 
 h1{
-	font-weight: 300;
-	font-size: 3em;
-	color: #333333;
+	font-weight: 700;
+	font-size: 2em;
 	letter-spacing: -0.025em;
 }
 
@@ -19,14 +18,15 @@ strong{
 }
 
 p{
-	margin-bottom: 40px;
+	line-height: 125%;
+	margin-bottom: 15px;
 }
 
 #content{}
 
 #navContainer{
 	top: 0px;
-	background: #07387C;
+	background: #FF0000;
 	position:fixed;
 	width:100%;
 }
@@ -36,13 +36,8 @@ p{
 	width: 960px;
 }
 
-#topNav ul{
-
-}
-
 #topNav ul li{
 	display: inline-block;
-	/*float: left;*/
 }
 
 #topNav ul li a{
@@ -60,32 +55,61 @@ p{
 	width: 200px;
 }
 
-#topNav ul li a:link{}
-#topNav ul li a:visited{
-}
 #topNav ul li a:hover{
-	background: #666666;
+	background: white;
+	color: #FF0000;
 }
-#topNav ul li a:active{}
 
-
-#whoAmI{
-	outline: 1px solid #333333;
+#denmark{
 	color: #333333;
-	height: 650px;
-	margin-top: 5px;
-	background: url("../img/topWave2.png") no-repeat center 0px, url("../img/lineWave.png") no-repeat center 530px;
+	height: 540px;
+	margin-top: 75px;
+	background: url("../img/copenhagen.png") no-repeat center 0px, url("../img/lineWave.png") no-repeat center 500px;
+}
+
+#denmark h1{
+	color: red;
+	font-weight: 700;
+	font-size: 2em;
+	letter-spacing: -0.025em;
+}
+
+#intro{
+	color: #333333;
+	margin-top: 300px;
 }
 
 #title{
+	color: white;
 	margin-top: 20px;
-	position: relative;
+/*	position: relative;
+*/}
+
+#copenhagen{
+	color: #333333;
+	height: 450px;
+	background: url("../img/headerGraphic.png") no-repeat 0px 0px, url("../img/lineWave.png") no-repeat center 430px;
 }
 
-#button{
+#copenhagen h2{
+	color: red;
+	font-weight: 700;
+	font-size: 1.65em;
+	margin-left: 125px;
+	margin-top: 32px;
 	position: absolute;
-	top: 470px;
-	left: 780px;
+}
+
+#copenhagenPhotoContainer .photoItem{
+	width: 200px;
+	margin:130px 0 40px 80px;
+	float:left;
+	text-align: center;
+	background: #ffffff;
+}
+
+#copenhagenPhotoContainer .photoItem footer{
+	padding: 10px;
 }
 
 
